@@ -1,0 +1,117 @@
+/* Main menu styles
+========================================================*/
+nav {
+  padding-top: 5px;
+}
+.sf-menu {
+  float: right;
+}
+.sf-menu > li {
+  float: left;
+  position: relative;
+  margin: 0 5px 0 0;
+}
+.sf-menu > li > a {
+  display: inline-block;
+  padding: 31px 23px;
+  text-transform: uppercase;
+  color: #555;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+.sf-menu > li > a:hover {
+  text-decoration: none;
+  color: #000;
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+.sf-menu > li .sf-with-ul:before {
+  content: "\B7";
+  position: absolute;
+  left: 50%;
+  bottom: 15px;
+  font-size: 30px;
+}
+.sf-menu > li.last-child {
+  margin-right: 0;
+}
+.sf-menu > li.last-child a {
+  padding-right: 0;
+}
+.sf-menu > li.current > a {
+  color: #000;
+}
+.sf-menu > li.sfHover > a {
+  color: #000;
+}
+.sf-menu a {
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+.sf-menu a:hover {
+  -webkit-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+/* First level sub-menu styles
+========================================================*/
+.sf-menu ul {
+  position: absolute;
+  top: 70px;
+  left: 0;
+  background: #000;
+  padding: 10px 20px;
+  width: 140px;
+  z-index: 2;
+  display: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.sf-menu ul li {
+  line-height: 30px;
+  position: relative;
+}
+.sf-menu ul li a {
+  color: #fff;
+}
+.sf-menu ul li a:hover {
+  color: #a7a7a7;
+  text-decoration: none;
+}
+.sf-menu ul li .sf-with-ul:before {
+  content: "";
+}
+.sf-menu ul li.sfHover > a {
+  color: #a7a7a7;
+}
+/* Second level sub-menu styles
+========================================================*/
+.sf-menu ul ul {
+  position: absolute;
+  top: -10px;
+  left: 120px;
+  padding: 10px 20px;
+  z-index: 4;
+}
+@media only screen and (max-width: 979px) {
+  .sf-menu > li > a {
+    padding: 31px 8px;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .sf-menu {
+    display: none;
+  }
+  .select-menu {
+    display: block;
+    width: 100%;
+    margin-bottom: 35px;
+  }
+}
+.rotate {
+  transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+}

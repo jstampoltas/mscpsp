@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Company</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/camera.css"/>
+    <link rel="stylesheet" href="css/jquery.fancybox.css"/>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/jquery.js"></script>
+    <script src="js/jquery-migrate-1.2.1.js"></script>
+    <script src="js/stellar/jquery.stellar.js"></script>
+    <script src="js/jquery.fancybox.pack.js"></script>
+    <script src="js/camera.js"></script>
+    <script src="js/jquery.matchHeight-min.js"></script>
+    <script>
+        $(function () {
+            $('.equal').matchHeight();
+        });
+    </script>
+    <!--[if (gt IE 9)|!(IE)]><!-->
+    <script src="js/jquery.mobile.customized.min.js"></script>
+    <script src="js/wow/wow.js"></script>
+    <script>
+        $(document).ready(function () {
+            if ($('html').hasClass('desktop')) {
+                new WOW().init();
+            }
+        });
+    </script>
+    <!--<![endif]-->
+    <!--[if lt IE 9]>
+    <div id="ie6-alert" style="width: 100%; text-align:center;">
+        <img src="http://beatie6.frontcube.com/images/ie6.jpg" alt="Upgrade IE 6" width="640" height="344" border="0"
+             usemap="#Map" longdesc="http://die6.frontcube.com"/>
+        <map name="Map" id="Map">
+            <area shape="rect" coords="496,201,604,329"
+                  href="http://www.microsoft.com/windows/internet-explorer/default.aspx" target="_blank"
+                  alt="Download Interent Explorer"/>
+            <area shape="rect" coords="380,201,488,329" href="http://www.apple.com/safari/download/" target="_blank"
+                  alt="Download Apple Safari"/>
+            <area shape="rect" coords="268,202,376,330" href="http://www.opera.com/download/" target="_blank"
+                  alt="Download Opera"/>
+            <area shape="rect" coords="155,202,263,330" href="http://www.mozilla.com/" target="_blank"
+                  alt="Download Firefox"/>
+            <area shape="rect" coords="35,201,143,329" href="http://www.google.com/chrome" target="_blank"
+                  alt="Download Google Chrome"/>
+        </map>
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+    <![endif]-->
+</head>
+
+<body>
+
+<!--========================================================
+                          HEADER
+=========================================================-->
+<header id="header">
+    <div id="stuck_container">
+        <div class="put-left logo-caption">
+            <img class="put-left" src="./images/logo.png" alt="" style="margin-top: 35px"/>
+            <h1 class="put-right color_1">
+                <a href="index.html">School
+                    <span>Book</span>
+                </a>
+            </h1>
+        </div>
+
+        <div class="put-right search-form-wrapper">
+            <a id="search-button" class=" fa fa-search color_3" href="#"></a>
+
+            <form id="search" action="search/search.php" method="get" accept-charset="utf-8">
+                <label class="input_wrap" for="search2">
+                    <input id="search2" onfocus="if(this.value == 'Search'){this.value = '';}"
+                           onblur="if(this.value == ''){this.value='Search';}" type="text" name="s" value="Search"/>
+                </label>
+                <a class="fa fa-angle-right" onclick="document.getElementById('search').submit()"
+                   href="#"></a>
+            </form>
+        </div>
+
+        <nav class="put-right header-menu">
+            <ul class="sf-menu">
+                <li class="current first-item">
+                    <a href="index.html">Company</a>
+                    <ul>
+                        <li>
+                            <a href="#">Quisque nulla</a>
+                        </li>
+                        <li>
+                            <a href="#">Vestibulum libero nis</a>
+                            <ul>
+                                <li>
+                                    <a href="#">Porta vel scelerisque eget</a>
+                                </li>
+                                <li>
+                                    <a href="#">Malesuada at neque</a>
+                                </li>
+                                <li>
+                                    <a href="#">Vivamus eget nibh</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            <a href="#">Pellentesque</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="index-1.html">Discover tea</a>
+                </li>
+                <li>
+                    <a href="index-2.html">Wholesale</a>
+                </li>
+                <li>
+                    <a href="index-3.html">Services</a>
+                </li>
+                <li>
+                    <a href="index-4.html">Contacts</a>
+                </li>
+                <li class="last">
+                    <a href="index-5.html">Blog</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="clearfix"></div>
+    </div>
+</header>
+<!--========================================================
+                          CONTENT
+=========================================================-->
+<section id="content">
+<div class="camera-wrapper">
+    <div id="camera01" class="camera-wrap">
+        <div data-src="images/index_img-02.jpg">
+        </div>
+        <div data-src="images/index_img-25.jpg">
+        </div>
+        <div data-src="images/index_img-26.jpg">
+        </div>
+    </div>
+    <img class="camera_img" src="./images/index_img-07.png" alt=""/>
+</div>
+
+<div class="container">
+    <div class="row wow fadeInUp" data-wow-delay="0.2s">
+        <div class="grid_12">
+            <h2 class="heading_1 color_3 center">Welcome to our tea company!</h2>
+            <h5 class="color_4 wrap1 center">We are an importer and a purveyor of fine tea since 1843</h5>
+        </div>
+    </div>
+    <div class="row center">
+        <div class="grid_4">
+            <div class="wrap4 wow fadeInLeft" data-wow-delay="0.2s">
+
+                <div class="circle bg_2 c1 wrap2"></div>
+                <h4 class="color_5 wrap3">
+                    <a href="#">Deposit quid pro quo</a>
+                </h4>
+
+                <p>Defacto lingo est igpay atinlay. Mtus non provisio incongruous feline nolo contendre. Gratuitous
+                    octopus
+                    niacin, sodium glutimate.</p>
+            </div>
+        </div>
+        <div class="grid_4">
+            <div class="wrap4 wow fadeInUp" data-wow-delay="0.2s">
+                <div class="circle bg_2 c2 wrap2"></div>
+                <h4 class="color_5 wrap3">
+                    <a href="#">Olypian quarrels et</a>
+                </h4>
+
+                <p>Defacto lingo est igpay atinlay. Mtus non provisio incongruous feline nolo contendre. Gratuitous
+                    octopus
+                    niacin, sodium glutimate.</p>
+            </div>
+        </div>
+        <div class="grid_4">
+            <div class="wrap4 wow fadeInRight" data-wow-delay="0.2s">
+                <div class="circle bg_2 c3 wrap2"></div>
+                <h4 class="color_5 wrap3">
+                    <a href="#">Congolium sic ad</a>
+                </h4>
+
+                <p>Defacto lingo est igpay atinlay. Mtus non provisio incongruous feline nolo contendre. Gratuitous
+                    octopus
+                    niacin, sodium glutimate.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="stellar-section">
+    <div class="stellar-block first" data-stellar-background-ratio="-0.2">
+        <div class="overlay">
+            <div class="wrapper1">
+                <div class="container">
+                    <div class="row">
+                        <div class="grid_7 wow fadeInLeft" data-wow-delay="0.2s">
+                            <h3 class="color_1 wrap5">Tea. The way it should really be</h3>
+
+                            <p class="color_1 wrap6">Epsum factorial non deposit quid pro quo hic escorol. Oian quarrels
+                                et
+                                gorilla congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum. Defacto
+                                lingo est igpay atinlay. Marquee selectus non provisio incongruous feline nolo
+                                contendre.</p>
+
+                            <div class="box">
+                                <img class="put-left" src="./images/index_img-08.png" alt=""/>
+                                <div class="caption color_1 text_1">
+                                    <p>“Souvlaki ignitus carborundum e pluribus unum. Defacto lingo est igpay atinlay.
+                                        Marquee selectus non provisio incongruous feline nolo contendre.”</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="grid_5 wow fadeInRight" data-wow-delay="0.2s">
+                            <div class="video-box wrap-top1">
+                                <a class="various fancybox.iframe" href="//www.youtube.com/embed/2kodXWejuy0">
+                                    <img class="first img-border" src="./images/index_img-06.jpg" alt=""/>
+                                    <img class="video-icon" src="./images/index_img-29.png" alt=""/>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="grid_12 wow fadeInDown" data-wow-delay="0.2s">
+            <h2 class="heading_2 color_4 center">This month's specials</h2>
+            <h5 class="color_4 wrap1 center">The taste of real tea</h5>
+        </div>
+    </div>
+    <div class="row">
+        <div class="grid_3">
+            <div class="box2 wrap1 wow fadeInLeft" data-wow-delay="0.1s">
+                <img class="first" src="./images/index_img-09.jpg" alt=""/>
+                <div class="caption bg_1 equal">
+                    <h6 class="text_2 color_5">
+                        <a href="#">Souvlaki ignitus</a>
+                    </h6>
+                </div>
+            </div>
+        </div>
+        <div class="grid_3">
+            <div class="box2 wrap1 wow fadeInLeft" data-wow-delay="0.2s">
+                <img class="first" src="./images/index_img-10.jpg" alt=""/>
+                <div class="caption bg_1 equal">
+                    <h6 class="text_2 color_5">
+                        <a href="#">Сarborundum e pluribus</a>
+                    </h6>
+                </div>
+            </div>
+        </div>
+        <div class="grid_3">
+            <div class="box2 wrap1 wow fadeInLeft" data-wow-delay="0.3s">
+                <img class="first" src="./images/index_img-11.jpg" alt=""/>
+                <div class="caption bg_1 equal">
+                    <h6 class="text_2 color_5">
+                        <a href="#">Defacto lingo est</a>
+                    </h6>
+                </div>
+            </div>
+        </div>
+        <div class="grid_3">
+            <div class="box2 wrap1 wow fadeInLeft" data-wow-delay="0.4s">
+                <img class="first" src="./images/index_img-12.jpg" alt=""/>
+                <div class="caption bg_1 equal">
+                    <h6 class="text_2 color_5">
+                        <a href="#">Marquee selectus</a>
+                    </h6>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="grid_12 wow fadeInUp" data-wow-delay="0.2s">
+            <p class="center text_3 pad_1 wrap2">“Epsum factorial non deposit quid pro quo hic escorol. Oian quarrels et
+                gorilla
+                congolium sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum. Defacto lingo est igpay
+                atinlay.”</p>
+
+            <p class="center text_4 author color_4 wrap7">
+                <a href="#">Robert Smith,</a>
+                <span class="color_2">our satisfied customer</span>
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="bg_2">
+    <div class="wrapper2">
+        <div class="container">
+            <div class="row">
+                <div class="grid_6">
+                    <div class="box9 wrap8 wow fadeInLeft" data-wow-delay="0.2s">
+                        <h6 class="text_5 color_1 wrap3">
+                            <span class="fa fa-group"></span>
+                            <a href="#">Olypian quarrels et gorilla</a>
+                        </h6>
+                        <p>Quote meon an estimate et non interruptium. Sic tempus fugit esperanto hiccup
+                            estrogen. Glorious baklava ex librus hup hey ad infinitum. Non sequitur condominium facile
+                            et geranium incognito. </p>
+                    </div>
+                </div>
+                <div class="grid_6">
+                    <div class="box9 wrap8 wow fadeInRight" data-wow-delay="0.2s">
+                        <h6 class="text_5 color_1 wrap3">
+                            <span class="fa fa-heart"></span>
+                            <a href="#">Congolium sic ad nauseum</a>
+                        </h6>
+                        <p>Quote meon an estimate et non interruptium. Sic tempus fugit esperanto hiccup
+                            estrogen. Glorious baklava ex librus hup hey ad infinitum. Non sequitur condominium facile
+                            et geranium incognito. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="grid_6">
+                    <div class="box9 wrap8 wow fadeInLeft" data-wow-delay="0.3s">
+                        <h6 class="text_5 color_1 wrap3">
+                            <span class="fa fa-leaf"></span>
+                            <a href="#">Gorilla congolium</a>
+                        </h6>
+                        <p class="color_1">Quote meon an estimate et non interruptium. Sic tempus fugit esperanto hiccup
+                            estrogen. Glorious baklava ex librus hup hey ad infinitum. Non sequitur condominium facile
+                            et geranium incognito. </p>
+                    </div>
+                </div>
+                <div class="grid_6">
+                    <div class="box9 wrap8 wow fadeInRight" data-wow-delay="0.3s">
+                        <h6 class="text_5 color_1 wrap3">
+                            <span class="fa fa-suitcase"></span>
+                            <a href="#">Membres del sam familie</a>
+                        </h6>
+                        <p class="color_1">Quote meon an estimate et non interruptium. Sic tempus fugit esperanto hiccup
+                            estrogen. Glorious baklava ex librus hup hey ad infinitum. Non sequitur condominium facile
+                            et geranium incognito. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="bg_1">
+    <div class="container">
+        <div class="row">
+            <div class="grid_12 wow fadeInUp" data-wow-delay="0.2s">
+                <h2 class="heading_2 color_4 center">Proved to be the best</h2>
+                <h5 class="color_4 wrap9 center">4 Reasons to choose our tea</h5>
+            </div>
+        </div>
+        <div class="wrap4">
+            <div class="row">
+                <div class="grid_3">
+                    <div class="box4 center wow fadeInRight" data-wow-delay="0.4s">
+                        <img src="./images/index_img-13.png" alt=""/>
+                        <h6 class="text_5 color_5 wrap3">
+                            <a href="#">Factorial</a>
+                        </h6>
+                        <p>Epsum factorial pro quhic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Sou
+                            ignitus
+                            carborundum e pluribus unum. Defacto lio est igpay atinlay rquee selectus.</p>
+                    </div>
+                </div>
+                <div class="grid_3">
+                    <div class="box4 center wow fadeInRight" data-wow-delay="0.3s">
+                        <img src="./images/index_img-14.png" alt=""/>
+                        <h6 class="text_5 color_5 wrap3">
+                            <a href="#">Deposit quid</a>
+                        </h6>
+                        <p>Epsum factorial pro quhic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Sou
+                            ignitus
+                            carborundum e pluribus unum. Defacto lio est igpay atinlay rquee selectus.</p>
+                    </div>
+                </div>
+                <div class="grid_3">
+                    <div class="box4 center wow fadeInRight" data-wow-delay="0.2s">
+                        <img src="./images/index_img-15.png" alt=""/>
+                        <h6 class="text_5 color_5 wrap3">
+                            <a href="#">Olypian</a>
+                        </h6>
+                        <p>Epsum factorial pro quhic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Sou
+                            ignitus
+                            carborundum e pluribus unum. Defacto lio est igpay atinlay rquee selectus.</p>
+                    </div>
+                </div>
+                <div class="grid_3">
+                    <div class="box4 center wow fadeInRight" data-wow-delay="0.1s">
+                        <img src="./images/index_img-16.png" alt=""/>
+                        <h6 class="text_5 color_5 wrap3">
+                            <a href="#">Congolium</a>
+                        </h6>
+                        <p>Epsum factorial pro quhic escorol. Olypian quarrels et gorilla congolium sic ad nauseum. Sou
+                            ignitus
+                            carborundum e pluribus unum. Defacto lio est igpay atinlay rquee selectus.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="stellar-section">
+    <div class="stellar-block second" data-stellar-background-ratio="-0.2">
+        <div class="overlay">
+            <div class="wrapper3">
+                <div class="container">
+                    <div class="row">
+                        <div class="grid_6 wow fadeInLeft" data-wow-delay="0.2s">
+                            <h3 class="color_1 wrap10">Start a green routine</h3>
+
+                            <p class="color_1">Epsum factorial non deposit quid pro qOian quarrels et gorilla congolium
+                                sic ad nauseum. Souvlaki ignitus carborundum e pluribus unum. Defacto lingo est igpay
+                                atinlay. Marquee selectus non provisincongruous feline nolo contendre. Gratuitous
+                                octopus niacin, sodium glutimate. Quote timate et non interruptus stadium. Sic tempus
+                                fugit esperanto hiccup estrogen.</p>
+
+                            <div class="btn-wrap">
+                                <a class="btn text_5 color_1 bg_2" href="#">View pricing</a>
+                                <p class="circle2 color_1">or</p>
+                                <a class="btn text_5 color_1 bg_3" href="#">Order now</a>
+                            </div>
+                        </div>
+                        <div class="grid_6 wow fadeInRight" data-wow-delay="0.2s">
+                            <iframe class="img-border video-frame" src="//www.youtube.com/embed/2kodXWejuy0"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="grid_12">
+            <ul class="link-list">
+                <li class="first wow fadeInLeft" data-wow-delay="0.1s">
+                    <a href="#">
+                        <img
+                                src="./images/index_img-18.png" alt=""/>
+                    </a>
+                </li>
+                <li class="wow fadeInLeft" data-wow-delay="0.2s">
+                    <a href="#">
+                        <img src="./images/index_img-19.png"
+                             alt=""/>
+                    </a>
+                </li>
+                <li class="wow fadeInLeft" data-wow-delay="0.3s">
+                    <a href="#">
+                        <img src="./images/index_img-20.png"
+                             alt=""/>
+                    </a>
+                </li>
+                <li class="wow fadeInLeft" data-wow-delay="0.4s">
+                    <a href="#">
+                        <img src="./images/index_img-21.png"
+                             alt=""/>
+                    </a>
+                </li>
+                <li class="wow fadeInRight" data-wow-delay="0.4s">
+                    <a href="#">
+                        <img src="./images/index_img-22.png"
+                             alt=""/>
+                    </a>
+                </li>
+                <li class="wow fadeInRight" data-wow-delay="0.3s">
+                    <a href="#">
+                        <img src="./images/index_img-23.png"
+                             alt=""/>
+                    </a>
+                </li>
+                <li class="last wow fadeInRight" data-wow-delay="0.2s">
+                    <a href="#">
+                        <img src="./images/index_img-24.png"
+                             alt=""/>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<iframe class="map"
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d24214.807650104907!2d-73.94846048422478!3d40.65521573400813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sus!4v1395650655094"></iframe>
+
+<div class="bg_1">
+    <div class="wrapper3 __inset1">
+        <div class="container">
+            <div class="row">
+                <div class="grid_3">
+                    <div class="link-list2 text_6 wow fadeInLeft" data-wow-delay="0.2s">
+                        <h4 class="color_2 __light">Products</h4>
+                        <ul>
+                            <li>
+                                <a class="color_8" href="#">Vestibulum</a>
+                            </li>
+                            <li>
+                                <a class="color_8" href="#">Culis lacinia</a>
+                            </li>
+                            <li>
+                                <a class="color_8" href="#">Proin dictum</a>
+                            </li>
+                            <li>
+                                <a class="color_8" href="#">Fusce euismod</a>
+                            </li>
+                            <li>
+                                <a class="color_8" href="#">Consequat</a>
+                            </li>
+                            <li>
+                                <a class="color_8" href="#">Adipiscing elit</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="link-list2 text_6 wow fadeInLeft" data-wow-delay="0.2s">
+                        <h4 class="color_2 __light">our Solutions</h4>
+                        <ul>
+                            <li>
+                                <a class="color_8" href="#">Sed ut perspiciatis unde</a>
+                            </li>
+                            <li>
+                                <a class="color_8" href="#">Omnis iste natus</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="grid_3">
+                    <div class="link-list2 text_6 wow fadeInLeft" data-wow-delay="0.3s">
+                        <h4 class="color_2 __light">Technology</h4>
+                        <ul>
+                            <li>
+                                <a class="color_8" href="#">Vatus error sivolu</a>
+                            </li>
+                            <li>
+                                <a class="color_8" href="#">Tatem accus</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="link-list2 text_6 wow fadeInLeft" data-wow-delay="0.3s">
+                        <h4 class="color_2 __light">Information</h4>
+                        <ul>
+                            <li>
+                                <a class="color_8" href="#">Press</a>
+                            </li>
+                            <li>
+                                <a class="color_8" href="#">Terms</a>
+                            </li>
+                            <li>
+                                <a class="color_8" href="#">Clients</a>
+                            </li>
+                            <li>
+                                <a class="color_8" href="#">Partners</a>
+                            </li>
+                            <li>
+                                <a class="color_8" href="#">Reseller</a>
+                            </li>
+                            <li>
+                                <a class="color_8" href="#">Support</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="grid_3">
+                    <div class="link-list2 text_6 wow fadeInRight" data-wow-delay="0.3s">
+                        <h4 class="color_2 __light">Company</h4>
+                        <ul>
+                            <li>
+                                <a class="color_8" href="#">Company</a>
+                            </li>
+                            <li>
+                                <a class="color_8" href="#">Discover tea</a>
+                            </li>
+                            <li>
+                                <a class="color_8" href="#">Wholesale</a>
+                            </li>
+                            <li>
+                                <a class="color_8" href="#">Services</a>
+                            </li>
+                            <li>
+                                <a class="color_8" href="#">Contacts</a>
+                            </li>
+                            <li>
+                                <a class="color_8" href="#">Blog</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="link-list2 text_6 __icons wow fadeInRight" data-wow-delay="0.3s">
+                        <h4 class="color_2 __light">Follow us</h4>
+                        <ul>
+                            <li>
+                                <span class="fa fa-google-plus color_2"></span>
+                                <a class="text_6 color_8" href="#">Google +</a>
+                            </li>
+                            <li>
+                                <span class="fa fa-twitter color_2"></span>
+                                <a class="text_6 color_8" href="#">Twitter</a>
+                            </li>
+                            <li>
+                                <span class="fa fa-facebook color_2"></span>
+                                <a class="text_6 color_8" href="#">Facebook</a>
+                            </li>
+                            <li>
+                                <span class="fa fa-linkedin color_2"></span>
+                                <a class="text_6 color_8" href="#">LinkedIn</a>
+                            </li>
+                            <li>
+                                <span class="fa fa-rss color_2"></span>
+                                <a class="text_6 color_8" href="#">RSS</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="grid_3">
+                    <div class="link-list2 __right text_6 wow fadeInRight" data-wow-delay="0.2s">
+                        <h4 class="__light color_2">Contact</h4>
+                        <ul>
+                            <li class="color_8">Telephone: +1 959 603 6035</li>
+                            <li class="color_8">FAX: + 1 504 889 9898</li>
+                            <li>
+                                <a class="color_8" href="#">E-mail: mail@demolink.org</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="link-list2 __right text_6 wow fadeInRight" data-wow-delay="0.2s">
+                        <h4 class="color_2 __light">Headquarter</h4>
+                        <ul>
+                            <li class="color_8">8901 Marmora Road <br/>
+                                    Glasgow, DO4 89GR.
+
+                            </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</section>
+
+
+<!--========================================================
+                          FOOTER
+=========================================================-->
+<footer id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="grid_12">
+                <p class="copyright color_1">
+                    <span class="first color_2">SchoolBook </span><span>&copy;
+                    <span id="copyright-year"></span></span>
+                    <a href="index-6.html">Privacy policy</a>
+                    <!--{%FOOTER_LINK} -->
+                </p>
+                <ul class="list">
+                    <li>
+                        <a href="#">Sed ut</a>
+                    </li>
+                    <li>
+                        <a href="#">Perspiciatis unde</a>
+                    </li>
+                    <li>
+                        <a href="#">Omnis iste natus</a>
+                    </li>
+                    <li>
+                        <a href="#">Sit voluptatem</a>
+                    </li>
+                    <li>
+                        <a href="#">Accusantium</a>
+                    </li>
+                    <li class="last">
+                        <a href="#">Doloremque laudantium</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
